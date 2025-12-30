@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "1932 Ford De Luxe Coupe",
+      "description": "The quintessential 'Deuce Coupe, a favorite among hot rodders.",
+      "stock": 1,
+      "category": "Antique",
+      "images": [
+        [
+          [
+            "https://hips.hearstapps.com/mtg-prod/65a16872ea61d10008498790/001-augie-esposito-32-ford-deluxe-stephan-szantai-1.jpg"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "2",
+      "name": "1948 Jaguar XK120",
+      "description": "Revolutionary sports car that set new for speed and style.",
+      "stock": 1,
+      "category": "Classic",
+      "images": [
+        [
+          "https://www.theoutlierman.com/cdn/shop/articles/download1_1024x.jpg?v=1467381366"
+        ]
+      ]
+    },
+    {
+      "id": "3",
+      "name": "1936 Bugatti Type 57SC Atlantic",
+      "description": "One of the most beautiful and valuable cars ever created.",
+      "stock": 1,
+      "category": "Antique",
+      "images": [
+        "https://emptytank.ca/wp-content/uploads/2025/10/bugatti-type-57-sc-atlantic.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "1940 Ford Deluxe Convertible",
+      "description": "A pre-war icon with teardrop headlights and elegant lines.",
+      "stock": 1,
+      "category": "Antique",
+      "images": [
+        "https://cdn.dealeraccelerate.com/orlando/1/876/50864/1920x1440/1940-ford-deluxe-convertible"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "1930 Cadillac V-16",
+      "description": "The height of luxury and engineering in the pre-war era.",
+      "stock": 1,
+      "category": "Antique",
+      "images": [
+        "https://cdn.rmsothebys.com/5/e/2/a/3/6/5e2a36961bfb326a4d65ec6d5fc9ee5c69abc042.webp"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "1929 Duesenberg Model J",
+      "description": "The American Rolls-Royce, known for its power and opulence.",
+      "stock": 1,
+      "category": "Antique",
+      "images": [
+        "https://cdn.rmsothebys.com/d/e/e/0/a/0/dee0a03f7e63d32db33a016f5e9119cd0df9ebe1.webp"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "1935 Auburn 851 Speedster",
+      "description": "Art Deco masterpiece with a supercharged engine.",
+      "stock": 1,
+      "category": "Classic",
+      "images": [
+        "https://cdn.dealeraccelerate.com/cam/34/6648/457825/1920x1440/1935-auburn-851-speedster-replica"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "1949 Mercury Coupe",
+      "description": "The definitive 'Lead Sled' custom car platform.",
+      "stock": 1,
+      "category": "Classic",
+      "images": [
+        [
+          [
+            "https://cdn.dealeraccelerate.com/cam/34/7498/527833/1920x1440/1949-mercury-9cm-series-coupe"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Porshe",
+      "description": "carrera",
+      "stock": 2,
+      "category": "Classic",
+      "images": [
+        "https://imgs.search.brave.com/EgvWHzGKCbjkL8yRC5w9bVdBg5nNgth7vqV7GvFDt4E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tdXNl/dW0ucmV2c2luc3Rp/dHV0ZS5vcmcvd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMDQv/UG9yc2NoZS1BYmFy/dGgtcHJvZmlsZS1l/MTYxMzc1NTg0NjUx/NC5qcGc"
+      ]
+    }
+  ]
+}

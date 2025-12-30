@@ -1,0 +1,59 @@
+/* Global Structure */
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding-top: 80px;
+    /* Space for fixed navbar */
+    min-height: 80vh;
+    background-color: #f8f9fa;
+    /* Light grey background for the whole app */
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.tracking-tight {
+    letter-spacing: -0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #2d3436 !important;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active-link {
+    color: #0984e3 !important;
+    position: relative;
+}
+
+.nav-link.active-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #0984e3;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fallback to system fonts */
+}

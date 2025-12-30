@@ -1,0 +1,9 @@
+/* Minimal styles, mostly using Bootstrap classes */
+.card {
+    background: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
