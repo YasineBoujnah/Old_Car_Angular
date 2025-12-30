@@ -7,11 +7,17 @@ A modern Angular application for managing a collection of classic and antique ca
 ### Home Page (List View)
 ![Home Page](screenshots/home_list.png)
 
-### Product Details
+### Product Edit
 ![Product Details](screenshots/product_details.png)
+
+### Delete Confirmation
+![Delete Confirmation](screenshots/delete_confirm.png)
 
 ### Adding a New Car
 ![Add Car](screenshots/add_product.png)
+
+### About Page
+![About Page](screenshots/about_page.png)
 
 ## 🚀 Getting Started
 
