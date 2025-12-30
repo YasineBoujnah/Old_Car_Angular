@@ -1,27 +1,81 @@
-# Miniproject
+# Old Car Angular Project 🚗
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+A modern Angular application for managing a collection of classic and antique cars. This project features a sleek UI with car listings, search functionality, detailed product modals, and a form to add new cars.
 
-## Development server
+## 📸 Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Home Page (List View)
+![Home Page](screenshots/home_list.png)
 
-## Code scaffolding
+### Product Details
+![Product Details](screenshots/product_details.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Adding a New Car
+![Add Car](screenshots/add_product.png)
 
-## Build
+## 🚀 Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these instructions to get the project up and running on your local machine.
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Angular CLI](https://angular.io/cli) (`npm install -g @angular/cli`)
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yassinebj50/Old_Car_Angular.git
+   cd Old_Car_Angular
+   ```
 
-## Further help
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🛠️ Running the Project
+
+This project requires both the Angular development server and a JSON server for the mock backend.
+
+### 1. Start the JSON Server (API)
+The backend uses `json-server` to serve data from `db.json`.
+```bash
+npx json-server --watch db.json
+```
+The API will be available at `http://localhost:3000`.
+
+### 2. Start the Angular Application
+Run the development server:
+```bash
+ng serve
+```
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## 📊 API & Data Structure
+
+The project uses a simple JSON database (`db.json`) with the following structure for products:
+
+```json
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "1932 Ford De Luxe Coupe",
+      "description": "...",
+      "stock": 1,
+      "category": "Antique",
+      "images": ["url..."]
+    }
+  ]
+}
+```
+
+## 🧰 Built With
+
+- **Angular 17** - Web framework
+- **Bootstrap 5** - Styling and layout
+- **SweetAlert2** - Beautiful alerts
+- **JSON Server** - Mock REST API
+
