@@ -102,9 +102,9 @@ export class GestionProduitsComponent implements OnInit {
         produit.category.toLowerCase().includes(term)
       );
     });
-    this.produitData = this.filteredProduitData;
     this.totalProduits = this.filteredProduitData.length;
     this.currentPage = 1;
+    this.searchTerm = '';
   }
 
   deleteProduit(row: any) {
